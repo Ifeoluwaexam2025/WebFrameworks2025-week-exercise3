@@ -1,8 +1,9 @@
 import "./App.css";
+import CostCalculator from "./CostCalculator";
 
 function App() {
   return <div className="App">
-    Write your solution here and remove this text
+    <CostCalculator  priceOfSingleVMPerHour={0.5}/>
   </div>;
 }
 
